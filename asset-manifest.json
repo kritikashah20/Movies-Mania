@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Movies-Mania/static/css/main.7c1769d8.chunk.css",
-    "main.js": "/Movies-Mania/static/js/main.aa74f874.chunk.js",
-    "main.js.map": "/Movies-Mania/static/js/main.aa74f874.chunk.js.map",
+    "main.css": "/Movies-Mania/static/css/main.6fab0989.chunk.css",
+    "main.js": "/Movies-Mania/static/js/main.06c1909d.chunk.js",
+    "main.js.map": "/Movies-Mania/static/js/main.06c1909d.chunk.js.map",
     "runtime-main.js": "/Movies-Mania/static/js/runtime-main.d9f0aab0.js",
     "runtime-main.js.map": "/Movies-Mania/static/js/runtime-main.d9f0aab0.js.map",
-    "static/js/2.3e34ca34.chunk.js": "/Movies-Mania/static/js/2.3e34ca34.chunk.js",
-    "static/js/2.3e34ca34.chunk.js.map": "/Movies-Mania/static/js/2.3e34ca34.chunk.js.map",
+    "static/js/2.7bc8b66d.chunk.js": "/Movies-Mania/static/js/2.7bc8b66d.chunk.js",
+    "static/js/2.7bc8b66d.chunk.js.map": "/Movies-Mania/static/js/2.7bc8b66d.chunk.js.map",
     "static/js/3.996fad0d.chunk.js": "/Movies-Mania/static/js/3.996fad0d.chunk.js",
     "static/js/3.996fad0d.chunk.js.map": "/Movies-Mania/static/js/3.996fad0d.chunk.js.map",
     "index.html": "/Movies-Mania/index.html",
-    "static/css/main.7c1769d8.chunk.css.map": "/Movies-Mania/static/css/main.7c1769d8.chunk.css.map",
-    "static/js/2.3e34ca34.chunk.js.LICENSE.txt": "/Movies-Mania/static/js/2.3e34ca34.chunk.js.LICENSE.txt"
+    "static/css/main.6fab0989.chunk.css.map": "/Movies-Mania/static/css/main.6fab0989.chunk.css.map",
+    "static/js/2.7bc8b66d.chunk.js.LICENSE.txt": "/Movies-Mania/static/js/2.7bc8b66d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d9f0aab0.js",
-    "static/js/2.3e34ca34.chunk.js",
-    "static/css/main.7c1769d8.chunk.css",
-    "static/js/main.aa74f874.chunk.js"
+    "static/js/2.7bc8b66d.chunk.js",
+    "static/css/main.6fab0989.chunk.css",
+    "static/js/main.06c1909d.chunk.js"
   ]
 }
