@@ -1,24 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { useState, useEffect } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+// api request
+import { getMoviesList } from "./api/requests";
+
+// constants
+import { navRoutes } from "./constants/routes";
+
+// pages & components
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import NotFoundPage from "./components/pages/NotFoundPage";
 
 function App() {
+  useEffect(() => {
+    
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar />
+      <Switch>
+        {navRoutes.map((route, routeIdx) => (
+          <Route
+            key={routeIdx}
+            exact={route.exact}
+            path={route.path}
+            component={route.component}
+          />
+        ))}
+        <Route component={NotFoundPage} />
+      </Switch>
+      <Footer />
+    </Router>
   );
 }
 
