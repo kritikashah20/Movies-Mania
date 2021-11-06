@@ -14,26 +14,26 @@ import Footer from "./components/Footer";
 import NotFoundPage from "./components/pages/NotFoundPage";
 
 function App() {
-  useEffect(() => {
-    
-  }, []);
+  useEffect(() => {}, []);
 
   return (
-    <Router>
+    <div className="App">
       <Navbar />
-      <Switch>
-        {navRoutes.map((route, routeIdx) => (
-          <Route
-            key={routeIdx}
-            exact={route.exact}
-            path={route.path}
-            component={route.component}
-          />
-        ))}
-        <Route component={NotFoundPage} />
-      </Switch>
+      <Router>
+        <Switch>
+          {navRoutes.map((route, routeIdx) => (
+            <Route
+              key={routeIdx}
+              exact={route.exact}
+              path={route.path}
+              component={route.component}
+            />
+          ))}
+          <Route component={NotFoundPage} />
+        </Switch>
+      </Router>
       <Footer />
-    </Router>
+    </div>
   );
 }
 

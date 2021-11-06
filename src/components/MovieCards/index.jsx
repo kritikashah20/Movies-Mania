@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 // style
-// import styles from './MovieCards.module.css';
+import styles from './MovieCards.module.css';
 
 // component
 import MovieCard from './MovieCard';
@@ -12,7 +12,7 @@ const MovieCards = ({ moviesList }) => {
         <>
             {
                 moviesList ? (
-                    <div>
+                    <div className={styles.movieCards}>
                         {moviesList.map((movie, movieIdx) =>
                             <MovieCard key={movieIdx} movie={movie}/>
                         )}
